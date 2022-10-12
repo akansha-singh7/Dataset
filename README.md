@@ -40,13 +40,13 @@ ngrok authtoken xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **5. Run below command to create public url:**
  
-from pyngrok import ngrok 
+from pyngrok import ngrok
 
-public_url = ngrok.connect(port='80') 
+public_url = ngrok.connect(port='80')
 
-print (public_url) 
+print (public_url)
 
-!streamlit run --server.port 80 app.py >/dev/null
+!streamlit run --server.port 80 /content/Dataset/app.py >/dev/null
 
 **Note: Test and Test_HS folders contains test images and files**
 
